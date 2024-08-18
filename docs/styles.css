@@ -2,12 +2,14 @@ body, html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
 .header-container {
     position: relative;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .background-image {
@@ -27,6 +29,7 @@ body, html {
     top: 0;
     left: 0;
     z-index: 10;
+    color: white;
 }
 
 .logo img {
@@ -44,9 +47,19 @@ body, html {
     text-decoration: underline;
 }
 
-.nav-icons img {
-    height: 30px; /* высота иконки Телеграмма */
+.nav-icons {
+    display: flex;
+    align-items: center;
+}
+
+.telegram-icon {
+    height: 30px;
     margin-right: 20px;
+}
+
+.contact-info {
+    margin-right: 20px;
+    text-align: right;
 }
 
 .reserve-btn {
@@ -60,6 +73,44 @@ body, html {
 }
 
 .reserve-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.content-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    max-width: 600px;
+    width: 100%;
+}
+
+.content-overlay h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.content-overlay p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.overlay-reserve-btn {
+    padding: 15px 30px;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.overlay-reserve-btn:hover {
     background-color: white;
     color: black;
 }
