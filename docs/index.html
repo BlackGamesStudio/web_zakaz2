@@ -8,51 +8,38 @@
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="logo.png" alt="Classic Boats Logo">
+        <div class="header-container">
+            <div class="logo">
+                <img src="logo.png" alt="Classic Boats Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#locations">Локации</a></li>
+                    <li><a href="#rules">Правила</a></li>
+                    <li><a href="#reviews">Отзывы</a></li>
+                    <li><a href="#blog">Блог</a></li>
+                </ul>
+            </nav>
+            <div class="contact">
+                <a href="tel:+79672500078">8 (967) 250-00-78</a>
+                <a href="mailto:rboat@list.ru">rboat@list.ru</a>
+                <a href="#" class="book-button">Забронировать</a>
+            </div>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
     </header>
 
     <section id="home" class="hero">
-        <h1>Experience Classic Boating</h1>
-        <p>Explore our range of classic boats for rent in the heart of the city.</p>
-        <a href="#services" class="cta-button">View Our Services</a>
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>Искусство Роскоши</h1>
+            <p>Аренда эксклюзивных моторных лодок в Москве и Московской области. Мы вдохновляемся историей яхтинга и предлагаем вам стать частью этого мира.</p>
+            <a href="#booking" class="cta-button">Забронировать</a>
+        </div>
     </section>
 
-    <section id="services">
-        <h2>Our Services</h2>
-        <p>We offer a variety of boating services including rentals and guided tours.</p>
-    </section>
-
-    <section id="about">
-        <h2>About Us</h2>
-        <p>We are dedicated to providing an exceptional boating experience with our classic fleet.</p>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Classic Boats. All rights reserved.</p>
-    </footer>
+    <!-- Add more sections as needed -->
 
     <script src="script.js"></script>
 </body>
