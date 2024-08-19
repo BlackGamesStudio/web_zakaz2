@@ -1,116 +1,16 @@
 body, html {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
 }
 
 .header-container {
-    position: relative;
-    width: 100%;
+    background-color: #333;
+    color: #fff;
+    background-image: url(back.png);
+    width: 90%;
+    height: 75vh;
     margin: 0 auto;
-    overflow: hidden;
-}
-
-.background-image {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.nav-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.7); /* полупрозрачный черный фон */
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 10;
-    color: white;
-}
-
-.logo img {
-    height: 50px; /* высота логотипа, можно изменить */
-}
-
-.nav-links a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 16px;
-}
-
-.nav-links a:hover {
-    text-decoration: underline;
-}
-
-.nav-icons {
-    display: flex;
-    align-items: center;
-}
-
-.telegram-icon {
-    height: 30px;
-    margin-right: 20px;
-}
-
-.contact-info {
-    margin-right: 20px;
-    text-align: right;
-}
-
-.reserve-btn {
-    padding: 10px 20px;
-    border: 2px solid white;
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-    font-size: 16px;
-    border-radius: 5px;
-}
-
-.reserve-btn:hover {
-    background-color: white;
-    color: black;
-}
-
-.content-overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-    max-width: 600px;
-    width: 100%;
-}
-
-.content-overlay h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
-    line-height: 1.2;
-}
-
-.content-overlay p {
-    font-size: 18px;
-    margin-bottom: 20px;
-    line-height: 1.5;
-}
-
-.overlay-reserve-btn {
-    padding: 15px 30px;
-    border: 2px solid white;
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 5px;
-}
-
-.overlay-reserve-btn:hover {
-    background-color: white;
-    color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center center;
 }
